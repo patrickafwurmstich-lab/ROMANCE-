@@ -14,4 +14,4 @@ A história foi criada num loop entre ChatGPT, Grok e Gemini, conduzido por Clau
 - `finais/` — os finais e suas condições
 - [`misterios-pistas.md`](misterios-pistas.md) — o que é escondido, onde aparece a pista, quando revela
 - `voltas/` — registro de cada volta do loop
-- [`producao/O-QUE-FALTA.md`](producao/O-QUE-FALTA.md) — **o que falta para o jogo existir** (10 tópicos, MVP, plano de 12 semanas)
+- [`producao/O-QUE-FALTA.md`](producao/O-QUE-FALTA.md) — **o que falta para o jogo existir.** Lista APROVADA (9,09 no Grok e no Gemini): 10 tópicos, MVP, economia, ritmo, marcos

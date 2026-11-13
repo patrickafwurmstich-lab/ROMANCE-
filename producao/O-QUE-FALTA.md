@@ -1,4 +1,7 @@
-# O QUE FALTA PARA O JOGO — lista consolidada (loop de produção, volta 1)
+# O QUE FALTA PARA O JOGO — lista consolidada (VERSÃO FINAL, loop de produção, volta 3)
+
+> ✅ **APROVADA.** Grok **9,09** e Gemini **9,09**, com **todos os 10 tópicos acima de 9**. Veredito das duas IAs: **"A lista está pronta para começar a produzir. Pode abrir o Godot."**
+> As decisões finais (ritmo, economia, VRM, áudio, testes) estão na seção **"VERSÃO FINAL (v3)"**, no fim deste arquivo. Elas prevalecem sobre os números antigos das seções de cima.
 
 Data: 13/11/2026. Jogo: **Sob o Céu de Néria**, da Formiguinha Açucarada.
 **Como foi feita:** o ChatGPT escreveu a lista de 10 tópicos (texto bruto em `lista-v1-chatgpt.md`), o Grok fez a crítica de produtor e o Gemini a crítica de jogador de Stardew. Depois, o Claude, como editor, consolidou.
@@ -192,3 +195,149 @@ Data: 13/11/2026. Jogo: **Sob o Céu de Néria**, da Formiguinha Açucarada.
 3. **Quem desenvolve, quantas horas por semana, qual o teto de gastos,** e um contrato simples entre os sócios.
 
 > "A única coisa que importa nos próximos 90 dias é uma clareira onde plantar, construir, falar com uma pessoa e salvar o jogo sem o notebook derreter." — Grok
+
+
+---
+
+# VERSÃO FINAL (v3): decisões que prevalecem
+
+## Notas finais
+| Tópico | Grok | Gemini |
+|---|---|---|
+| 1. Engine e desempenho (Godot 4) | 9,2 | 9,2 |
+| 2. Produção e escopo | 9,1 | 9,1 |
+| 3. Game feel, energia e ritmo | 9,1 | 9,1 |
+| 4. Multiplayer e saves | 9,0 | 9,0 |
+| 5. VRM e animação | 9,1 | 9,1 |
+| 6. Economia | 9,2 | 9,2 |
+| 7. UI/UX | 9,1 | 9,1 |
+| 8. Áudio | 9,0 | 9,0 |
+| 9. Mundo e navegação | 9,1 | 9,1 |
+| 10. Lançamento e conformidade | 9,0 | 9,0 |
+| **Média** | **9,09** | **9,09** |
+
+## Ritmo do dia
+| Modo | Dia | Noite | Total |
+|---|---|---|---|
+| Rápido | 11min15s | 3min45s | 15 min |
+| **Padrão** | **15 min** | **5 min** | **20 min** |
+| Estendido | 22min30s | 7min30s | 30 min |
+- **Dormir avança** até a manhã seguinte. Uma estação (98 dias) dura ~32h40 sem dormir.
+- A noite clara acontece dentro dos 5 minutos de noite.
+- **Animações de ferramenta:** 0,45–0,80 s. **Hitstop de 0,04 s,** só visual (não para o relógio nem a rede). **Grade de 1 m,** com o quadrado-alvo no chão.
+- **Primeira machadada:** a árvore balança forte, faz um estalo seco e solta 2 troncos no chão com um "plop". Nunca some numa fumaça (Gemini).
+- **Anoitecer:** os insetos param e fica só o estalo da fogueira perto do abrigo, dando a sensação de "abrigo seguro" (Gemini).
+
+## Economia (fechada)
+| | Raiz-de-mel | Grão-solar |
+|---|---|---|
+| Canteiros | 10 | 12 |
+| Crescimento | 4 dias | 6 dias |
+| Colheita bruta / canteiro | 3 | 5 |
+| Guarda para replantar | 1 | 1 |
+| Comida líquida / canteiro | 2 | 4 |
+| Rega | a cada 2 dias | a cada 3 dias |
+
+- **Produção:** 10×2/4 + 12×4/6 = **13 porções/dia** → **11,05** depois de 15% de perda.
+- **Consumo:** 2 porções/pessoa/dia. Protagonista, Marina e Augusto comem do estoque comum. **Elias tem estoque próprio** (uma entrega para ele só existe como ação registrada) → **8 porções/dia**.
+- **Margem: +38,1%** (a mínima exigida era 25%).
+- **Ciclo de 12 dias:** estoque inicial de 40, produção de 132,6 depois das perdas, consumo de 96 → **estoque final de 76,6**. A conta fecha.
+- **Energia para montar a horta:** 110 no total. O jogador faz 10 canteiros (50) e a Marina 12 (60). Sem a ajuda dela, a horta é montada em 2 dias.
+- **Dia típico do jogador:** 15 ações, 45 de energia (regar 6 canteiros secos, madeira, pedra, construir, conversar, examinar). Sobram 55.
+- **Dia de colheita dupla:** jogador 20 ações e Marina 24 (a Marina tem agenda e capacidade própria).
+- **Testes de estresse obrigatórios no simulador:** 3 dias sem chuva; perda total de uma colheita; atraso de 2 dias; Marina indisponível por 2 dias; Elias recusando comida; um jogador que não planta; 2 jogadores colhendo ao mesmo tempo; comida estragando.
+- **O tutorial tem calendário próprio:** a planilha acima vale para a horta já estabilizada.
+
+## As primeiras 2 horas (sem dormir cedo)
+| Tempo | Dia | O que acontece |
+|---|---|---|
+| 0–20 min | 1 | Movimento, coleta, primeiros diálogos, começo do abrigo |
+| 20–40 min | 2 | Plantio, organização dos recursos, primeira construção |
+| 40–60 min | 3 | Horta funcionando, baú, contato com o Augusto |
+| 60–80 min | 4 | Primeira raiz-de-mel colhida, cozinha simples |
+| 80–100 min | 5 | Exploração, ferramenta melhorada, pista ambiental |
+| 100–120 min | 6 | Primeiro grão-solar, preparo de uma construção maior |
+
+**Critério:** em 2 horas, sem ninguém explicar nada, o tester constrói o abrigo, colhe, usa o baú, conhece a Marina e o Augusto, acha uma pista e salva. O Elias não precisa aparecer nas primeiras 2 horas.
+
+## VRM (teste obrigatório na semana 3)
+- **4 VRMs ao mesmo tempo** (protagonista, Marina, Augusto, Elias) andando na clareira, com SpringBone a 30 Hz.
+- **Medir 3 configurações:** normal, sem SpringBone e com material e cabelo simplificados.
+
+| Item | Meta | Se não bater |
+|---|---|---|
+| LOD próximo | ≤ 18 mil triângulos | ≤ 12 mil |
+| Materiais | 3–5 | 2–3 |
+| Textura | 1024² | 512² |
+| SpringBone distante | desligado | (obrigatório) |
+| 1% low | > 24 FPS | sem isso, a arte final não é aprovada |
+
+## UI e testes
+- **Semana 10:** 3 pessoas externas, 20 min, 720p, sem explicação. Tarefas: andar, coletar, plantar, abrir o inventário, construir um baú, falar com a Marina, ver o diário e salvar. Anotar onde cada uma trava.
+- **Build interna:** pode ter debug, assets temporários e bugs não críticos.
+- **Build para tester:** debug escondido, nenhum bug que trave o jogo, save testado, abre sem ajuda.
+- **Inspetor de autoridade de rede:** um HUD de debug que mostra o host, o dono, o ID e o estado de cada canteiro e baú.
+
+## Os 25 sons essenciais (até o fim do mês 2), em `res://assets/audio/essential/`
+WAV PCM 48 kHz. Sons posicionais em mono. Os valores são o pico do arquivo em dBFS.
+| # | Arquivo | Pico |
+|---|---|---|
+| 1 | ui_select.wav | −12 |
+| 2 | ui_confirm.wav | −10 |
+| 3 | ui_cancel.wav | −12 |
+| 4 | ui_error.wav | −9 |
+| 5 | ui_inventory_open.wav | −12 |
+| 6 | footstep_dirt_01.wav | −12 |
+| 7 | footstep_dirt_02.wav | −12 |
+| 8 | footstep_wood_01.wav | −12 |
+| 9 | tool_hoe_impact.wav | −8 |
+| 10 | tool_axe_impact.wav | −7 |
+| 11 | tool_pickaxe_impact.wav | −7 |
+| 12 | tool_watering.wav | −12 |
+| 13 | farming_seed_plant.wav | −13 |
+| 14 | farming_harvest_root.wav | −10 |
+| 15 | farming_harvest_grain.wav | −11 |
+| 16 | construction_place_wood.wav | −9 |
+| 17 | construction_hammer.wav | −8 |
+| 18 | storage_chest_open.wav | −11 |
+| 19 | storage_chest_close.wav | −11 |
+| 20 | fire_camp_loop.wav | −18 |
+| 21 | ambience_forest_day.wav | −18 |
+| 22 | ambience_forest_night.wav | −20 |
+| 23 | ambience_rain_loop.wav | −16 |
+| 24 | ambience_river_loop.wav | −18 |
+| 25 | story_recorder_click.wav | −12 |
+
+**Ganho inicial dos buses:** Master 0 dB, Music −12, Ambience −8, SFX −4, UI −8. Registrar o autor e a licença de cada arquivo.
+
+## Mundo e navegação
+- **Zonas proibidas de construção** visíveis na hora de posicionar. Portas, pontes, caminhos e pontos da história ficam protegidos.
+- **Teste automatizado:** 100 cenários, cada um com até 20 construções aleatórias. A Marina precisa **chegar** de verdade à horta (NavigationAgent3D), e não só ter um caminho calculado. O teste falha se ela travar ou passar do tempo.
+
+## Saves
+- **Teste de kill -9** (ou fechamento forçado no Windows) em vários pontos da escrita. O último save íntegro tem que sobreviver.
+- **Migração:** criar um save no formato v1, mudar um campo no v2, carregar com a migração e conferir que plantações, inventários e IDs continuam certos.
+
+## Lançamento (semana 1, 2 horas)
+- Criar `docs/legal/` com `nome_marca_2026-11.md`, `steamworks_2026-11.md`, `classind_checklist.md`, `licencas_assets.csv`, `propriedade_intelectual.md` e `politica_conteudo_jogador.md`.
+- É uma triagem, não um parecer jurídico.
+
+## Marcos
+| Quando | O que precisa estar pronto |
+|---|---|
+| Semana 1 | Verificação legal arquivada e benchmark da clareira |
+| Semana 3 | 4 VRMs ao mesmo tempo com 1% low acima de 24 |
+| Fim do mês 2 | 25 WAV licenciados e integrados |
+| Semana 10 | 3 testes de usabilidade externos |
+| Semana 12 | Go/no-go: economia simulada, save que sobrevive a kill -9, 100 cenários de navegação e LAN para 2 |
+
+## Cronograma de 6 meses (horas)
+- **Solo, 15 h/semana:** ~293 h efetivas. Resultado: um **protótipo integrado** (clareira, 1 VRM, 2 culturas, 4 construções, Marina básica, 1 pista, save, prova de LAN). Augusto e Elias ficam para depois.
+- **Dupla, 30 h/semana:** ~585 h efetivas. Resultado: um **vertical slice reduzido** (3 NPCs simples, uma cena curta do Elias, UI completa, LAN para 2).
+- **Cortes nas semanas 4, 8, 12, 20 e 26.** Se uma entrega atrasar, corta-se escopo ou estende-se o prazo. Nada de hora extra como solução.
+
+## Orçamento
+- **Mínimo:** ~R$ 750 (backup externo e reserva). Godot, Blender, VRoid e Git são gratuitos.
+- **Confortável:** R$ 9.200–24.600. Prioridade: otimização de VRM e animações → testes externos → áudio e música → arte comercial.
+- **Não gastar ainda com:** dublagem, trailer cinematográfico, os 6 mapas, servidor dedicado, anúncio pago antes da demo.
+- **Custo de oportunidade de referência:** R$ 30 por hora (solo: R$ 11.700; dupla: R$ 23.400).
