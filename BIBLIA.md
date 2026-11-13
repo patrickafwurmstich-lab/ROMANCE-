@@ -17,6 +17,8 @@ Status: **depois da volta 3**. Título provisório: **Sob o Céu de Néria**
 
 ## Decisões do autor (depois da volta 1)
 - **Elenco:** os 12 são do **Brasil**, e isso tem motivo na história: todos estavam perto de uma instalação brasileira ligada ao Projeto Travessia, o que vira pista do mistério. Os 2 portugueses da v1 (Clara e Tomás) precisam virar brasileiros ou ter um motivo forte para estar no Brasil.
+- **Multiplayer:** até 4 jogadores, com romance exclusivo.
+- **Final C:** quem volta para a Terra ganha só um **epílogo na Terra**. A campanha continua em Néria com quem ficou.
 - **Morte dos NPCs:** **modo configurável**. No começo, o jogador escolhe entre modo história (sem morte, só ferimento e afastamento) e modo sobrevivência (morte possível em eventos avisados).
 - **Linha do tempo:** as IAs propuseram opções, e o editor escolheu a Solução D (provisória). Ver abaixo.
 - **Descendente vivo:** as IAs propuseram, e o editor escolheu manter o Elias Varela (ver abaixo).
@@ -107,7 +109,7 @@ Ver `personagens/elenco.md`.
 - **Uma rota pode falhar de verdade:** o personagem pode não querer continuar, mesmo que o jogador tenha feito tudo "certo".
 - O cônjuge mantém a própria profissão e rotina, e ganha uma conversa exclusiva à noite, na fogueira.
 - NPCs podem formar casais entre si, com regras claras.
-- **Multiplayer (até 4 jogadores):** ⚠️ falta o autor decidir entre romance exclusivo e instanciado. A amizade é individual. Votação para decisões irreversíveis: 2 jogadores, os dois concordam; 3, bastam 2 votos; 4, são precisos 3. Um jogador ausente não pode ser casado, separado, transferido ou morto automaticamente.
+- **Multiplayer (até 4 jogadores):** o romance é **exclusivo, como no Stardew** (decisão do autor): um NPC casa com um só jogador, e vale o primeiro compromisso aceito. A amizade é individual. Votação para decisões irreversíveis: 2 jogadores, os dois concordam; 3, bastam 2 votos; 4, são precisos 3. Um jogador ausente não pode ser casado, separado, transferido ou morto automaticamente.
 - **Eventos aprovados:**
   - **Marina, "A Safra Perdida":** um fungo azul destrói a plantação; cavando com ela de madrugada, o jogador acha um duto da colônia que envenenava o solo.
   - **Joana, a tempestade:** escolher entre as sementes e o gerador. Se o jogador escolhe o gerador, a rota esfria por uma estação.
