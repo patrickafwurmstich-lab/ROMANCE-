@@ -3,7 +3,7 @@
 Só entra aqui o que foi **aprovado**. É a referência que todas as IAs recebem em cada volta.
 Tudo aqui deve passar pelas 6 perguntas de `REGRAS.md`.
 
-Status: **depois da volta 4**. Título provisório: **Sob o Céu de Néria**
+Status: **FECHADA na volta 5.** Notas finais: Grok 8,9 e Gemini ~9,0. Veredito: "não falta mais história". O que falta é validação de produção (ver `voltas/volta-05.md`).. Título provisório: **Sob o Céu de Néria**
 
 ---
 
@@ -18,7 +18,7 @@ Status: **depois da volta 4**. Título provisório: **Sob o Céu de Néria**
 ## Decisões do autor (depois da volta 1)
 - **Elenco:** os 12 são do **Brasil**, e isso tem motivo na história: todos estavam perto de uma instalação brasileira ligada ao Projeto Travessia, o que vira pista do mistério. Os 2 portugueses da v1 (Clara e Tomás) precisam virar brasileiros ou ter um motivo forte para estar no Brasil.
 - **Multiplayer:** até 4 jogadores, com romance exclusivo.
-- **Canon ajustado (volta 4): roupa do corpo e o que estava preso ao corpo.** O protagonista acorda com um **relógio de pulso parado às 05:17**, o horário da transferência. Não serve para marcar o tempo em Néria (o dia tem 27h12). No fim de uma rota, pode ser dado ao parceiro; no Final C, pode ficar sobre o painel. Os NPCs também podem ter um objeto pequeno assim, preso ao corpo (é coerente com a margem de 15–30 cm do Travessia).
+- **Canon ajustado (volta 4), redação única: "o corpo, a roupa e os objetos firmemente presos ao corpo (como um relógio no pulso)". Objeto solto ou de bolso não atravessa.** O protagonista acorda com um **relógio de pulso parado às 05:17**, o horário da transferência. Não serve para marcar o tempo em Néria (o dia tem 27h12). No fim de uma rota, pode ser dado ao parceiro; no Final C, pode ficar sobre o painel. Os NPCs também podem ter um objeto pequeno assim, preso ao corpo (é coerente com a margem de 15–30 cm do Travessia).
 - **Final C:** quem volta para a Terra ganha só um **epílogo na Terra**. A campanha continua em Néria com quem ficou.
 - **Morte dos NPCs:** **modo configurável**. No começo, o jogador escolhe entre modo história (sem morte, só ferimento e afastamento) e modo sobrevivência (morte possível em eventos avisados).
 - **Linha do tempo:** as IAs propuseram opções, e o editor escolheu a Solução D (provisória). Ver abaixo.
@@ -52,7 +52,7 @@ Sem dilatação do tempo. Fica uma única tecnologia extraordinária: o Travessi
 2. **Leva o corpo e uma margem de 15–30 cm** em volta dele (roupa e calçado). Não "sabe" o que é roupa. Objetos soltos ficam.
 3. **Reconhece o padrão biológico humano,** não a identidade nem o consentimento.
 4. **A queda** aconteceu porque a plataforma perdeu a calibração vertical. **A desaceleração desigual** explica os ferimentos diferentes.
-5. **Amnésia** autobiográfica, com a procedural preservada. Varia de pessoa para pessoa (os registros mostram integridade de 61% a 89%). Ninguém recupera tudo por causa de uma frase.
+5. **Amnésia** autobiográfica, com a procedural preservada. Varia de pessoa para pessoa (os registros mostram um índice de integridade de 61% a 89%; **esse índice não é a porcentagem de memória perdida**). Ninguém recupera tudo por causa de uma frase.
 6. **Dados e matéria usam canais separados.** O canal de dados armazena e retransmite, por isso a gravação do Final C chega anos depois.
 7. **O que ele não faz:** criar matéria, curar, devolver memória, escolher pessoas por moral, viajar no tempo ou funcionar sem dois terminais.
 - **Cada regra tem uma pista antes da revelação.** Na Costa das Torres há um diagrama de densidade do campo, com os 13 pontos e o protagonista exatamente no limite.
@@ -157,6 +157,12 @@ Prólogo (dias 1–3) → Cap. 1, Um lugar para ficar → Cap. 2, O que ficou pa
 - **E, O Assentamento Perdido:** colapso e migração.
 - **Morte configurável:** no modo sobrevivência, só há risco de morte em 6 eventos avisados (tempestade, água contaminada, expedição à Serra Partida, falha elétrica, predadores, reativação da Costa das Torres). Quando alguém morre, as tarefas dele passam para outros.
 - Nenhum final é decidido por uma escolha isolada de diálogo. A campanha continua em modo livre depois do final.
+
+## Detalhes da colônia, de Elias e das rotas
+- `mundo/colonia.md`: as 20 crianças, os 3 núcleos finais, o caderno de rádio do Paulo Neves (Brejo, 2020) e os 3 mortos da EPMSA (Márcio Batista, Patrícia Leal, Edson Pereira).
+- `personagens/elias.md`: biografia, comportamentos e as cenas da calha e do encontro.
+- `romances/silencio-prolongado.md`: a mecânica de afastamento e retorno, com o exemplo do Samuel.
+- **Falas finais (teste do sussurro):** Rafael "Eu devo pra alguém. Que merda." / Augusto "Acordei e procurei." / recusa no multiplayer "Não. Tô com alguém."
 
 ## Protagonista
 - Pode recuperar fragmentos opcionais de memória, genéricos, sem nunca ganhar uma identidade fixa. Também pode escolher não recuperar nada.
