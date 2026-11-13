@@ -62,7 +62,7 @@ Médias: Grok ~8,2 e Gemini ~8,8. Faltam os últimos ajustes para todo mundo che
 ## REJEITADO
 - **Queimar crachás e manuais da EPMSA trazidos no bolso (Gemini):** pelo canon, chegaram sem nada. A ideia foi adaptada (queimam o primeiro abrigo).
 - **Mala de mão de cada sobrevivente (Gemini):** contradiz o canon "só com a roupa do corpo".
-- **Relógio parado às 05:17 no pulso do protagonista (Gemini):** ⚠️ isso mexe no canon, então foi levado ao autor.
+- **Relógio parado às 05:17 (Gemini):** levado ao autor, que **APROVOU**. O canon virou "roupa do corpo e o que estava preso ao corpo".
 
 ## Tarefas da volta 5 (consolidação)
 1. **Bíblia final completa,** organizada pelos 9 critérios, juntando tudo o que foi aprovado das voltas 1 a 4.

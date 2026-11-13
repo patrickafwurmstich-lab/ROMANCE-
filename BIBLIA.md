@@ -18,6 +18,7 @@ Status: **depois da volta 4**. Título provisório: **Sob o Céu de Néria**
 ## Decisões do autor (depois da volta 1)
 - **Elenco:** os 12 são do **Brasil**, e isso tem motivo na história: todos estavam perto de uma instalação brasileira ligada ao Projeto Travessia, o que vira pista do mistério. Os 2 portugueses da v1 (Clara e Tomás) precisam virar brasileiros ou ter um motivo forte para estar no Brasil.
 - **Multiplayer:** até 4 jogadores, com romance exclusivo.
+- **Canon ajustado (volta 4): roupa do corpo e o que estava preso ao corpo.** O protagonista acorda com um **relógio de pulso parado às 05:17**, o horário da transferência. Não serve para marcar o tempo em Néria (o dia tem 27h12). No fim de uma rota, pode ser dado ao parceiro; no Final C, pode ficar sobre o painel. Os NPCs também podem ter um objeto pequeno assim, preso ao corpo (é coerente com a margem de 15–30 cm do Travessia).
 - **Final C:** quem volta para a Terra ganha só um **epílogo na Terra**. A campanha continua em Néria com quem ficou.
 - **Morte dos NPCs:** **modo configurável**. No começo, o jogador escolhe entre modo história (sem morte, só ferimento e afastamento) e modo sobrevivência (morte possível em eventos avisados).
 - **Linha do tempo:** as IAs propuseram opções, e o editor escolheu a Solução D (provisória). Ver abaixo.
