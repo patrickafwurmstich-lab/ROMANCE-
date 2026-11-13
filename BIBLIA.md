@@ -3,7 +3,7 @@
 Só entra aqui o que foi **aprovado**. É a referência que todas as IAs recebem em cada volta.
 Tudo aqui deve passar pelas 6 perguntas de `REGRAS.md`.
 
-Status: **depois da volta 2**. Título provisório: **Sob o Céu de Néria**
+Status: **depois da volta 3**. Título provisório: **Sob o Céu de Néria**
 
 ---
 
@@ -30,7 +30,7 @@ Status: **depois da volta 2**. Título provisório: **Sob o Céu de Néria**
 - **Sem magia.** É ficção científica.
 - Nenhum NPC morre por falha comum de rotina. Consequências graves só acontecem em eventos bem sinalizados.
 
-## Linha do tempo (Solução D, provisória, testar na volta 3)
+## Linha do tempo (Solução D, aprovada e testada na volta 3)
 Sem dilatação do tempo. Fica uma única tecnologia extraordinária: o Travessia.
 - 1996: começa a pesquisa secreta. 2001: primeira conexão sem gente.
 - **2004:** a colônia de ~146 pessoas chega em Néria.
@@ -39,15 +39,24 @@ Sem dilatação do tempo. Fica uma única tecnologia extraordinária: o Travessi
 - **2014:** a falha corta a ligação. O Travessia é desmontado na Terra, e a EPMSA herda o setor C.
 - **2021:** morre o último colono adulto. Elias fica sozinho.
 - **2026:** os 13 caem.
-- 1 ano em Néria equivale a ~1,21 ano na Terra.
+- 1 ano em Néria equivale a ~1,21 ano na Terra. Na bíblia usam-se anos terrestres (AT); os calendários encontrados em Néria usam anos de Néria (AN).
+- **Por que ninguém na Terra sabe:** houve encobrimento por um consórcio (contratos falsos, mortes "em acidente"). Há famílias desconfiadas e processos arquivados. Em 2026, o sumiço dos 13 abre investigação.
+- **Setor C:** a câmara foi escavada na rocha e a blindagem faz parte da fundação. Removê-la exigiria demolir o prédio e contaminar o aquífero, então foi selada, desenergizada e teve a documentação falsificada. MARGEM, pelos sistemas auxiliares que nunca foram desligados, reencontrou o acoplamento (aparece num registro técnico).
+- **Ruínas recentes:** mato, ferrugem e goteiras, sem cara de mil anos. A primeira estufa parou em 2014, a oficina em 2019 e a casa de Elias em 2021.
+
+## Demografia da colônia
+146 em 2004 → ~170 em 2007 (lote 3 + nascimentos) → 140–150 (doença) → 110–120 (falta de remédio, acidentes, partos) → ~100 em 2014 (a ligação cai) → 60–70 (fome, conflitos) → 25–35 (envelhecimento, grupos isolados) → 8–12 em 2020 (doença respiratória) → 1 em 2021.
+Nasceram 18–22 crianças, e só Elias chegou à idade adulta. Aparece no caderno de partos, em listas de nomes riscados e em túmulos.
 
 ## A instalação brasileira: EPMSA
 - **Estação de Pesquisa de Materiais e Sincronização de Araguaia**, em Santa Aurora do Araguaia (MT, cidade fictícia), perto da divisa com Goiás. Ocupa um antigo complexo do Travessia, e o setor C (câmara de sincronização) está interditado.
 - **Às 05h17,** durante uma parada de manutenção, MARGEM reativou o setor C à distância. O campo de captura era irregular, num raio de **~800 m**.
-- Os 13 estavam espalhados por motivos do dia a dia: refeitório do turno, alojamento de campo, estrada vicinal com um jipe quebrado, casa de máquinas, ambulatório. Ninguém estava "no laboratório secreto".
+- Os 13 estavam espalhados por motivos do dia a dia. Há um mapa com as coordenadas em `voltas/volta-03-chatgpt.md`: Lívia a 133 m (indo aos alarmes) e o mais distante é o protagonista, a 710 m.
+- Havia 27 pessoas previstas, e 14 não foram capturadas. 2–3 morreram num desabamento secundário, e os outros assinaram termos de silêncio. **Sérgio Nunes, segurança,** deixou um depoimento anônimo que aparece nos Finais B e C.
+- **O campo leva o corpo e a roupa em contato.**
 - **Origens:** Clara é de Florianópolis e Tomás de Brasília (ambos brasileiros agora).
 - **Como vira pista:** Augusto reconhece um encaixe de peça; Marina e Tomás têm lembranças soltas; no Cap. 4, um registro identifica a EPMSA como terminal do Travessia.
-- ⚠️ **Falta:** o mapa com a posição de cada um.
+
 
 ## Mundo — Néria
 Ver `mundo/neria.md`. Resumo:
@@ -79,7 +88,11 @@ Ver `mundo/neria.md`. Resumo:
 - **Como conquistar a confiança:** deixar comida na cerca dele por 3 dias sem pedir nada. Se for rejeitado, ele some por uma estação.
 - **Calendário riscado** na parede, com símbolos e um grande X com "não mais".
 - **Sino de vento** de latas, que afasta um predador. Roubar metal da cerca desafina o sino e o acampamento é atacado.
-- É ele quem marca os peixes, continuando o trabalho dos pais sem entender bem para quê.
+- É ele quem marca os peixes, e marca mais do que come: "só pra não esquecer como se faz".
+- **Pais:** Helena Varela (agrônoma) e Davi Varela (técnico de água e energia). Destruiu o joelho em 2018, Davi morreu em 2019 e Helena em 2021 (o X do calendário).
+- **Lua:** nasceu em 2016 ("menina, viva, mãe não", no caderno de partos). Elias, com 11 anos, ajudou a cuidar dela, e ela morreu de pneumonia por volta de 2019–2020. Tem um montinho de pedras na horta. Se o jogador consertar o boneco de corda dela, Elias diz "Isso aqui não faz os outros voltarem", e a porta da cabana nunca mais fica trancada.
+- Nada de cutscene dramática: se o jogador tocar no assunto, ele entra em casa.
+- **3 cenas aprovadas:** a oficina, a cerca com comida e o calendário (ver `voltas/volta-03-chatgpt.md`).
 - Não é par romântico e nunca explica tudo.
 
 ## Os 12 personagens (base da v1, em revisão)
@@ -94,11 +107,13 @@ Ver `personagens/elenco.md`.
 - **Uma rota pode falhar de verdade:** o personagem pode não querer continuar, mesmo que o jogador tenha feito tudo "certo".
 - O cônjuge mantém a própria profissão e rotina, e ganha uma conversa exclusiva à noite, na fogueira.
 - NPCs podem formar casais entre si, com regras claras.
-- **Multiplayer:** o romance é exclusivo (um NPC não casa com dois jogadores). A amizade é individual.
+- **Multiplayer (até 4 jogadores):** ⚠️ falta o autor decidir entre romance exclusivo e instanciado. A amizade é individual. Votação para decisões irreversíveis: 2 jogadores, os dois concordam; 3, bastam 2 votos; 4, são precisos 3. Um jogador ausente não pode ser casado, separado, transferido ou morto automaticamente.
 - **Eventos aprovados:**
   - **Marina, "A Safra Perdida":** um fungo azul destrói a plantação; cavando com ela de madrugada, o jogador acha um duto da colônia que envenenava o solo.
   - **Joana, a tempestade:** escolher entre as sementes e o gerador. Se o jogador escolhe o gerador, a rota esfria por uma estação.
-- **Os eventos principais das 12 rotas, e onde cada uma pode falhar, estão em `voltas/volta-02-chatgpt.md`.** Faltam 3 eventos encadeados por rota.
+- **Cada rota tem 3 eventos (cotidiano → crise → decisão íntima).** Estão em `voltas/volta-03-chatgpt.md`, com os extras de Clara (o balde), Augusto (o conserto escondido e a cadeira) e Samuel (a mentira por vergonha) registrados em `voltas/volta-03.md`.
+- **Eventos de romance ficam presos ao jogador:** só disparam quando ele está presente.
+- **Véspera do casamento:** vinho sintético achado numa caixa da colônia ("Sorte que a gente não tá pagando IPTU em São Paulo"). **Espelho:** o parceiro escreve um recado no vapor.
 - **Sem barra de afeto na tela.** A falha é sentida no jeito do NPC (exemplo: Clara para de falar com o jogador nas refeições por uma estação).
 - **Casamento:** o cônjuge leva os pertences para um quarto anexo. Se o jogador contrariar os valores dele, vem a "conversa de inverno". Se a relação azedar, o NPC desmonta o anexo em silêncio, na chuva.
 
@@ -108,8 +123,11 @@ Prólogo (dias 1–3) → Cap. 1, Um lugar para ficar → Cap. 2, O que ficou pa
 - **A mentira da água no Dia 2:** Samuel declara uma fonte "provavelmente segura" e Hana discorda em particular. Se o jogador apoiar a mentira, alguém fica doente. É o primeiro pacto de omissão.
 - **Sem marcador de missão e sem notificação de pista.** A revelação vem da reação dos NPCs quando o jogador mostra o objeto.
 - **4 pistas na rotina:** hortelã + alicerce (ao preparar um canteiro), carrinho enterrado (ao cavar um poste de cerca), peixe marcado (ao pescar) e ruído no moinho na noite clara (pulsos debaixo da terra). Se o jogador perder uma, outro NPC acha a mesma informação.
-- **Gravador com voz de criança** numa casa da colônia: sons de insetos e uma cantiga de roda tradicional, com uma mãe chorando ao fundo. Ouvido na noite clara, para o acampamento por um dia.
-- **Noite das Duas Luas:** a luz azulada faz as sombras parecerem gente, e a tradição é acender fogueiras nos pontos cardeais. Com a comunidade dividida, a festa testa se os dois grupos sentam juntos.
+- **Gravador com voz de criança** numa casa da colônia: sons de insetos, uma cantiga de roda tradicional e uma mãe chorando ("Mãe?" / "Continua, meu bem."). Ouvido na noite clara, para o acampamento por um dia. Depois disso, 3 segundos de tela escura, sem interface e sem conquista.
+- **Lore longo** fica em terminais e cadernos legíveis durante a rotina. Nenhuma discussão longa interrompe o plantio.
+- **Chuva amarela:** uma vez por estação, um fenômeno vulcânico natural (da Serra Partida), com cheiro de enxofre e aviso pelas nuvens. É preciso cobrir plantações e animais.
+- **Prólogo (v3):** Dia 1 com Rafael, Hana e Marina. Dia 2 com Diego e Samuel (a mentira da água) e depois Joana e Clara. Dia 3 com Augusto, Caio e Tomás. Lívia e Amara continuam sumidas, e procurá-las abre o Cap. 1.
+- **Noite das Duas Luas:** a luz azulada faz as sombras parecerem gente, e a tradição é acender fogueiras nos pontos cardeais. Com a comunidade dividida, uma das fogueiras aparece apagada e ninguém admite quem foi. Reacender exige trabalho físico.
 
 ## Finais (v1)
 - **A, Nova Terra:** ficar em Néria.
