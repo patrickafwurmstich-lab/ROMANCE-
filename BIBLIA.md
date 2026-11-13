@@ -15,6 +15,12 @@ Status: **depois da volta 1**. Título provisório: **Sob o Céu de Néria**
 - O protagonista é criado pelo jogador. Ele pode namorar e casar com um dos 12.
 - Vários finais. Modo solo e multiplayer.
 
+## Decisões do autor (depois da volta 1)
+- **Elenco:** os 12 são do **Brasil**, e isso tem motivo na história: todos estavam perto de uma instalação brasileira ligada ao Projeto Travessia, o que vira pista do mistério. Os 2 portugueses da v1 (Clara e Tomás) precisam virar brasileiros ou ter um motivo forte para estar no Brasil.
+- **Morte dos NPCs:** **modo configurável**. No começo, o jogador escolhe entre modo história (sem morte, só ferimento e afastamento) e modo sobrevivência (morte possível em eventos avisados).
+- **Linha do tempo:** fica para as IAs proporem opções na volta 2.
+- **Descendente da colônia vivo:** fica para as IAs proporem na volta 2.
+
 ## Princípios aprovados
 - O jogador **não é especial**: não é o escolhido, não tem poderes, não é o centro do mistério.
 - Os 12 têm vida própria. Fazem amizades, brigam e formam casais, mesmo sem o jogador por perto.
