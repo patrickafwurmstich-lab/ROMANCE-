@@ -35,6 +35,7 @@ Data: 13/11/2026. Jogo: **Sob o Céu de Néria**, da Formiguinha Açucarada.
 # OS 10 TÓPICOS, DO MAIS URGENTE AO MENOS URGENTE
 
 ## 1. ENGINE, ARQUITETURA E DESEMPENHO — 🔴 CRÍTICO (semanas 1–2)
+> ✅ **DECIDIDO PELO AUTOR (13/11/2026): GODOT 4.** O benchmark agora serve para medir os limites do Godot 4 no notebook, não para escolher a engine.
 **Por que falta:** sem saber se o notebook roda 3D com VRM, todo o resto é chute. Ignorar isso significa descobrir no mês 8 que o jogo roda a 12 FPS.
 - [ ] **Benchmark Godot 4 × Unity LTS** com a mesma cena: terreno, 1 VRM jogável, **6 NPCs VRM andando** e 50–100 árvores. Medir FPS (média e 1% low), RAM e tempo de carregamento.
 - [ ] **Metas que não se negociam:** **30 FPS em 720p** no qualidade baixa. Se cair abaixo de 24 FPS com 6 VRMs, o orçamento de polígonos e materiais cai na hora.
@@ -186,7 +187,7 @@ Data: 13/11/2026. Jogo: **Sob o Céu de Néria**, da Formiguinha Açucarada.
 **Fora do MVP:** combate, os 6 biomas, 12 NPCs, casamento, os finais, multiplayer online, dublagem, chuva amarela.
 
 ## AS 3 DECISÕES ANTES DE QUALQUER OUTRA COISA
-1. **Qual engine** roda Néria com VRM no notebook (Godot 4 ou Unity)? Decidir no benchmark das semanas 1–2.
+1. ~~Qual engine~~ → ✅ **Godot 4** (decisão do autor). Falta medir os limites dele no notebook.
 2. **Quais são os primeiros 30 minutos:** explorar a clareira, coletar, plantar, construir o abrigo, falar com a Marina e achar uma pista.
 3. **Quem desenvolve, quantas horas por semana, qual o teto de gastos,** e um contrato simples entre os sócios.
 
