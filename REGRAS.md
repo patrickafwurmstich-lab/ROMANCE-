@@ -1,24 +1,32 @@
 # REGRAS DO LOOP DE CRIAÇÃO
 
-Regras que conduzem a criação da história da série de apocalipse zumbi.
+Regras que conduzem a criação da história do jogo.
 Claude (editor) aplica estas regras em toda volta e lembra as outras IAs delas em toda mensagem.
 
 ---
 
 ## 1. Canon — o que NÃO pode mudar
 
-Vem do roteiro base do autor (Lucas). As IAs podem acrescentar detalhes, nunca contradizer:
+Definido pelo autor (Lucas). As IAs podem acrescentar detalhes, nunca contradizer:
 
-- Lucas é contador num escritório minúsculo; no escritório estão o patrão e o amigo João.
-- Sexta-feira → viagem de férias → o avião cai numa ilha.
-- A única outra sobrevivente é uma aeromoça, ferida e com febre. Ela **NÃO** foi mordida por zumbi.
-- Lucas fica uns 3 meses preso na ilha; nesse tempo, o mundo acaba.
-- Narrada pelo próprio Lucas, falando com quem assiste, com momentos dele conversando com outras pessoas.
-- Tom: começa engraçado e vai ficando tenso.
-- Pistas do apocalipse discretas, nunca escancaradas.
-- Formato: 3D com visual de anime; episódios de 20–30 min no YouTube + shorts (TikTok/Instagram).
+- **Gênero:** jogo 3D de **romance e mistério**, com sobrevivência.
+- **Início:** o jogador acorda depois de **cair do céu numa selva**, sem memória, sem nada — só a roupa do corpo.
+- **Sobreviventes:** encontra **12 pessoas (6 homens e 6 mulheres)** que caíram ao mesmo tempo e também não sabem de nada.
+- **Lugar:** **não é a Terra** — é outro planeta. Descobrir onde estão é o grande mistério.
+- **Planeta:** **sem habitantes nativos inteligentes** — só animais/criaturas.
+- **Protagonista:** **criado pelo jogador** (não tem nome nem história fixa).
+- **Romance:** o jogador escolhe com quem se relacionar e **pode casar**.
+- **Finais:** **vários**, dependendo das escolhas do jogador.
+- **Modo:** **solo e multiplayer**.
+- **Jogabilidade:** sobrevivência com **construção, combate e plantação** (estilo Stardew Valley), em 3D.
+- **Personagens:** modelos **VRM** (visual anime).
 
 Só o autor pode mudar o canon.
+
+### Consequências do canon que as IAs devem respeitar
+- Protagonista criado pelo jogador → ele não pode ter falas longas nem passado definido; a história dele é o que o jogador vive. O passado e a perda de memória precisam funcionar para qualquer protagonista.
+- Multiplayer → a história precisa funcionar com 1 jogador ou com vários (vários "caídos" jogáveis além dos 12).
+- Sem nativos → o mistério é contado pelo planeta, pelas ruínas, pelos objetos e pelos próprios sobreviventes.
 
 ---
 
@@ -30,7 +38,7 @@ Toda IA **cria e critica**. Ninguém só concorda ou discorda.
 |---|---|---|
 | 1 | ChatGPT | **Roteirista** — escreve/reescreve a versão atual e propõe ideias |
 | 2 | Grok | **Crítico chato** — caça furo, clichê, contradição, personagem raso; e propõe a sua visão |
-| 3 | Gemini | **Espectador fã de anime** — onde ficou chato, confuso ou previsível; e propõe a sua visão |
+| 3 | Gemini | **Jogador fã de anime e de Stardew** — onde ficou chato, confuso, previsível ou sem graça de jogar; e propõe a sua visão |
 | 4 | Claude | **Editor** — junta tudo, aplica as 6 perguntas, decide o que entra, salva no GitHub e monta a próxima volta |
 
 Em cada volta, cada IA entrega:
@@ -58,14 +66,15 @@ Valem para TODA ideia, cena, fala e detalhe. Repetidas em toda mensagem:
 
 Cada IA dá nota de 0 a 10 para cada item:
 
-1. **Mundo e regras** — origem do vírus, como se espalha, o que os zumbis fazem, sem contradição.
-2. **Personagens** — passado, motivação, defeitos, como cada um muda.
-3. **Arco geral** — começo, meio, clímax e final fechados.
-4. **Episódios** — o que acontece em cada um, com gancho no final.
-5. **Acontecimentos** — cenas principais em ordem, sem buracos.
-6. **Mistérios e pistas** — o que fica escondido, quando é revelado, pistas discretas antes.
-7. **Tom e temas** — a passagem do engraçado para o tenso funciona.
-8. **Diálogos** — soam como gente de verdade.
+1. **Mundo e regras** — o planeta, a natureza, os animais, as ruínas, a física e as regras do lugar, sem contradição.
+2. **O grande mistério** — onde estão, por que caíram, quem/o que está por trás, com resposta fechada e coerente.
+3. **Os 12 personagens** — cada um com passado, motivação, segredo, defeitos, jeito de falar e como muda.
+4. **Rotas de romance** — para cada um dos 12: como a relação evolui (eventos de coração), conflito da rota, pedido e casamento.
+5. **Estrutura do jogo** — capítulos/estações, eventos principais, gatilhos (o que destrava o quê), sem buracos.
+6. **Pistas e revelações** — o que fica escondido, onde aparecem as pistas, quando cada coisa é revelada.
+7. **Finais** — cada final com condições claras, consequência e sentido; nenhum final "jogado".
+8. **História + jogabilidade** — construção, combate e plantação têm motivo dentro da história (e no multiplayer também).
+9. **Tom e diálogos** — falas que soam como gente de verdade; equilíbrio entre leveza, romance e tensão.
 
 **O loop para quando:** todos os itens têm nota **≥ 9 nas três IAs** e nenhum furo grave foi apontado.
 
@@ -82,6 +91,7 @@ Cada IA dá nota de 0 a 10 para cada item:
 - Resumo no lugar de cena ("eles ficam com medo e fogem").
 - Clichês prontos: o escolhido, a coincidência salvadora, o vilão sem motivo.
 - Todo mundo falando do mesmo jeito.
+- Personagem de romance que existe só para gostar do jogador.
 
 **Obrigatório:**
 - Português brasileiro natural, com gíria e frase cortada quando fizer sentido.
@@ -89,18 +99,24 @@ Cada IA dá nota de 0 a 10 para cada item:
 - Momentos pequenos e humanos no meio do caos (piada, silêncio, coisa boba).
 - Mostrar em vez de explicar.
 - Consequências reais: escolhas custam caro.
+- Cada um dos 12 tem vida própria: opinião, rotina, conflitos entre eles, mesmo sem o jogador por perto.
 
 ---
 
 ## 6. Formato das respostas
 
-- **Roteirista:** versão completa organizada pelos 8 critérios + ideias novas.
-- **Crítico e espectador:** sua visão (ideias próprias) + nota 0–10 por item + os 3 maiores problemas com sugestão de correção + o que **não** deve ser mexido porque já está bom.
+- **Roteirista:** versão completa organizada pelos 9 critérios + ideias novas.
+- **Crítico e jogador:** sua visão (ideias próprias) + nota 0–10 por item + os 3 maiores problemas com sugestão de correção + o que **não** deve ser mexido porque já está bom.
 
 ---
 
 ## 7. Como os arquivos são usados
 
 - `BIBLIA.md` — só o que foi **aprovado**. É o que as IAs recebem em toda volta.
-- `mundo/`, `personagens/`, `episodios/`, `misterios-pistas.md` — o detalhe completo (pode virar livro).
+- `mundo/` — planeta, biomas, animais, ruínas, linha do tempo.
+- `personagens/` — um arquivo por personagem (os 12).
+- `romances/` — rota de romance de cada personagem.
+- `capitulos/` — estrutura do jogo, eventos e gatilhos.
+- `finais/` — cada final, com condições.
+- `misterios-pistas.md` — o que é escondido, onde aparece a pista, quando revela.
 - `voltas/` — registro de cada volta: o que cada IA disse e o que o editor decidiu e por quê.

@@ -9,25 +9,36 @@ Status: **volta 0 — só o canon do autor**
 
 ## Canon do autor
 
-- **Protagonista:** Lucas, contador num escritório minúsculo. Narra a história falando com quem assiste.
-- **Escritório:** o patrão e o amigo João.
-- **Início:** sexta-feira no escritório → viagem de férias → o avião cai numa ilha.
-- **Sobrevivente:** a aeromoça, ferida e com febre. Não foi mordida por zumbi.
-- **Arco base:** Lucas fica uns 3 meses na ilha; nesse tempo, o mundo acaba.
-- **Tom:** começa engraçado, vai ficando tenso. Pistas do apocalipse discretas.
-- **Formato:** 3D estilo anime, episódios de 20–30 min + shorts.
+- **Gênero:** jogo 3D de romance e mistério, com sobrevivência (construção, combate, plantação — estilo Stardew Valley).
+- **Início:** o jogador acorda depois de cair do céu numa selva, sem memória, só com a roupa do corpo.
+- **Sobreviventes:** 12 pessoas (6 homens, 6 mulheres) caíram ao mesmo tempo; também não sabem de nada.
+- **Lugar:** outro planeta, não a Terra. Descobrir onde estão é o grande mistério.
+- **Planeta:** sem nativos inteligentes, só animais/criaturas.
+- **Protagonista:** criado pelo jogador.
+- **Romance:** o jogador escolhe com quem; pode casar.
+- **Finais:** vários, conforme as escolhas.
+- **Modo:** solo e multiplayer.
+- **Personagens:** modelos VRM (visual anime).
+
+## Ideias sugeridas por Claude (ainda NÃO aprovadas — vão para o loop)
+- A queda não foi acidente: todos caíram juntos porque algo/alguém os trouxe.
+- O planeta guarda pistas de quem caiu antes (ruínas, objetos da Terra de outras épocas, plantação abandonada).
+- Mistério e romance se cruzam: um dos sobreviventes lembra mais do que admite.
 
 ## Mundo e regras
 _(a definir)_
 
-## Personagens
+## O grande mistério
 _(a definir)_
 
-## Arco geral
+## Os 12 personagens
 _(a definir)_
 
-## Episódios
+## Rotas de romance
 _(a definir)_
 
-## Mistérios e pistas
+## Estrutura do jogo
+_(a definir)_
+
+## Finais
 _(a definir)_
